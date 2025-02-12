@@ -4,7 +4,9 @@
   "description": "Este projeto é um clone do site **[tabnews.com.br](https://www.tabnews.com.br/)**, que será desenvolvido a partir de um **curso.dev** para praticar e desenvolver habilidades de desenvolvimento web.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "keywords": [],
   "author": "Jailson Silva",
@@ -13,5 +15,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.0"
   }
 }
